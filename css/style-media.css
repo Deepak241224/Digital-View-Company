@@ -54,6 +54,11 @@
                 padding: 4px;
                 background-color: #c861a8;
             }
+            .fa-linkedin {
+                background-color: #0e76a8;
+                font-size: 20px;
+                padding: 4px;
+            }
             /* navbar------------- */
             .navbar {
                 margin-top: 132px;
@@ -163,6 +168,812 @@
             }
             .Portfolio-Gallery .column .content p {
                 font-size: 13px;
+            }
+            .foot {
+                padding-top: 10px;
+            }
+            .fabout h6 {
+                font-size: 18px;
+            }
+            .fabout .row .col {
+                text-align: center;
+                padding: 0;
+                width: 100%;
+            }
+        }
+        /*xxxxxxxxx---------------- end of mobile media ------------xxxxxxxxxxxxxxxx*/
+        /* 481------768(ipads and tabs) -------------------*/
+        
+        @media (min-width:481px) and (max-width:768px) {
+            .top-con {
+                padding-bottom: 25px;
+                padding-top: 0 !important;
+            }
+            .top-con .row {
+                margin-bottom: 0;
+                padding-top: 0;
+            }
+            .contact1 {
+                padding: 0;
+            }
+            .contact1 p {
+                margin-bottom: 0;
+                padding-left: 30px;
+                flex-wrap: wrap;
+                flex-direction: row;
+                display: flex;
+            }
+            .contact1 p span a {
+                font-size: 16px;
+                color: white;
+                text-decoration: none;
+            }
+            .contact2 {
+                display: none;
+            }
+            .hidden-row {
+                margin: 0;
+                padding-left: 38px;
+                display: flex;
+            }
+            .hidden-row p {
+                margin-bottom: 0;
+            }
+            .hidden-row p span i {
+                color: white;
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            .fa-facebook-f {
+                padding: 4px 7px;
+                background-color: #4267B2;
+            }
+            .fa-whatsapp {
+                padding: 4px;
+                background-color: #25D366;
+            }
+            .fa-twitter {
+                padding: 4px;
+                background-color: #1DA1F2;
+            }
+            .fa-instagram {
+                padding: 4px;
+                background-color: #c861a8;
+            }
+            .fa-linkedin {
+                background-color: #0e76a8;
+                font-size: 20px;
+                padding: 4px;
+            }
+            /* navbar------------- */
+            .navbar {
+                margin-top: 101px;
+            }
+            /* sliders---------------- */
+            .carousel {
+                margin-top: 141px;
+            }
+            /*---------------icons below slider---------- */
+            .below-slider-icons {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .below-slider-icons .container .row .col {
+                padding: 0;
+            }
+            .below-slider-icons .container .row .col i {
+                font-size: 37px;
+            }
+            .below-slider-icons .container .row .col h4 {
+                font-size: 11px;
+            }
+            /* about us section--------------------- */
+            .about-contf {
+                padding: 30px 0 10px 0;
+            }
+            .about-c h4 {
+                margin-bottom: 20px;
+            }
+            .about-c h2 {
+                margin-bottom: 5px;
+                font-size: 19px;
+            }
+            .about-c .lagre-screen {
+                display: none;
+            }
+            .small-screen {
+                display: flex;
+            }
+            .small-screen .col-md-6 img {
+                float: left;
+                width: 60%;
+                margin-bottom: 15px;
+            }
+            .small-screen .col-md-6 p {
+                font-size: 14px;
+                text-align: justify;
+            }
+            /* -----------what we do------------------ */
+            .what-we-do {
+                padding-top: 10px;
+                padding-bottom: 6px;
+            }
+            .what-we-do .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .what-we-do .container h4 {
+                font-weight: 600;
+            }
+            .what-we {
+                padding: 0;
+            }
+            .what-we .col {
+                margin-left: 1px !important;
+                margin-right: 1px !important;
+                width: 30%;
+            }
+            .what-we .col img {
+                width: 50%;
+                height: 45% !important;
+            }
+            .what-we .col h2 {
+                font-size: 10px !important;
+            }
+            .what-we .col p {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+                font-size: 10px !important;
+                margin-bottom: 28px !important;
+            }
+            /* -------------------gallery------------------ */
+            .gallery {
+                padding: 20px 5px !important;
+            }
+            .gallery h2 {
+                margin-bottom: 20px;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            #myBtnContainer {
+                display: flex;
+                flex-direction: row;
+            }
+            #myBtnContainer .btn {
+                padding-right: 5px;
+            }
+            .Portfolio-Gallery .column .content img {
+                width: 90%;
+            }
+            .Portfolio-Gallery .column .content h4 {
+                font-size: 15px;
+            }
+            .Portfolio-Gallery .column .content p {
+                font-size: 13px;
+            }
+            .foot {
+                padding-top: 10px;
+            }
+            .fabout h6 {
+                font-size: 18px;
+            }
+            .fabout .row .col {
+                text-align: center;
+                padding: 0;
+                width: 100%;
+            }
+        }
+        /*xxxxxxxxxx---------------- end of 481 to 768px----------------------- */
+        /*xxxxxxxxxxx--------- 769px — 1024px: Small screens, laptops.--------xxxxxxxxxxx */
+        
+        @media (min-width:769px) and (max-width:1024px) {
+            .top-con {
+                padding-right: 0;
+                display: flex;
+                flex-direction: row;
+                padding-bottom: 25px;
+                padding-top: 0 !important;
+            }
+            .top-con .row {
+                margin-bottom: 0;
+                padding-top: 0;
+            }
+            .contact1 {
+                padding: 0;
+            }
+            .contact1 p {
+                padding-right: 30px;
+                margin-bottom: 0;
+                /* padding-left: 30px; */
+                flex-wrap: wrap;
+                flex-direction: row;
+                display: flex;
+            }
+            .contact1 p span a {
+                font-size: 16px;
+                color: white;
+                text-decoration: none;
+            }
+            .contact2 {
+                display: none;
+            }
+            .hidden-row {
+                padding-top: 10px !important;
+                padding-bottom: 0;
+                margin: 0;
+                padding-left: 17px;
+                display: flex;
+            }
+            .hidden-row p {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+            .hidden-row p span i {
+                color: white;
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            .fa-facebook-f {
+                padding: 4px 7px;
+                background-color: #4267B2;
+            }
+            .fa-whatsapp {
+                padding: 4px;
+                background-color: #25D366;
+            }
+            .fa-twitter {
+                padding: 4px;
+                background-color: #1DA1F2;
+            }
+            .fa-instagram {
+                padding: 4px;
+                background-color: #c861a8;
+            }
+            .fa-linkedin {
+                background-color: #0e76a8;
+                font-size: 20px;
+                padding: 4px;
+            }
+            /* navbar------------- */
+            .navbar {
+                margin-top: 65px;
+            }
+            /* sliders---------------- */
+            .carousel {
+                margin-top: 108px;
+            }
+            /*---------------icons below slider---------- */
+            .below-slider-icons {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .below-slider-icons .container {
+                padding: 0;
+            }
+            .below-slider-icons .container .row .col {
+                padding: 0;
+            }
+            .below-slider-icons .container .row .col i {
+                font-size: 42px;
+                margin-bottom: 15px;
+            }
+            .below-slider-icons .container .row .col h4 {
+                font-size: 15px;
+            }
+            /*------------- about us section--------------------- */
+            .about-contf {
+                padding: 30px 0 10px 0;
+            }
+            .about-c {
+                padding: 0;
+            }
+            .about-c h4 {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            .about-c h2 {
+                margin-bottom: 10px;
+                font-size: 23px;
+            }
+            /* .about-c .lagre-screen {} */
+            .small-screen {
+                display: none;
+            }
+            .lagre-screen img {
+                padding-top: 50px;
+                width: 40%;
+                margin-bottom: 84px;
+            }
+            .lagre-screen p {
+                font-size: 14px;
+                text-align: justify;
+            }
+            /* -----------what we do------------------ */
+            .what-we-do {
+                padding-top: 20px;
+                padding-bottom: 16px;
+            }
+            .what-we-do .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .what-we-do .container h4 {
+                font-size: 28px;
+                font-weight: 600;
+            }
+            .what-we {
+                padding: 0;
+            }
+            .what-we1 {
+                margin-bottom: 0 !important;
+            }
+            .what-we .col {
+                margin-left: 4px !important;
+                margin-right: 4px !important;
+                width: 30%;
+            }
+            .what-we .col img {
+                width: 50%;
+                height: 45% !important;
+            }
+            .what-we .col h2 {
+                font-size: 15px !important;
+            }
+            .what-we .col p {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+                font-size: 14px !important;
+                /* margin-bottom: 28px !important; */
+            }
+            /* -------------------gallery------------------ */
+            .gallery {
+                padding: 20px 5px !important;
+            }
+            .gallery h2 {
+                margin-bottom: 20px;
+                text-align: center;
+                font-size: 25px;
+                font-weight: 600;
+            }
+            #myBtnContainer {
+                padding-left: 35px;
+                display: flex;
+                flex-direction: row;
+            }
+            #myBtnContainer .btn {
+                padding-right: 20px;
+            }
+            .Portfolio-Gallery {
+                margin-left: 5px;
+            }
+            .Portfolio-Gallery .column .content img {
+                width: 90%;
+            }
+            .Portfolio-Gallery .column .content h4 {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .Portfolio-Gallery .column .content p {
+                font-size: 15px;
+            }
+            .foot {
+                padding-top: 10px;
+            }
+            .fabout h6 {
+                font-size: 18px;
+            }
+            .fabout .row .col {
+                text-align: center;
+                padding: 0;
+                width: 100%;
+            }
+        }
+        /*xxxxx--------- end of 769px — 1024px: Small screens, laptops. xxxx-------*/
+        /*x-x-x-x-x--x- 1025px — 1200px: Desktops, large screens-x-x-x--xx--x-x-x */
+        
+        @media (min-width:1025px) and (max-width:1200px) {
+            .top-con {
+                padding-right: 0;
+                padding-bottom: 25px;
+                padding-top: 0 !important;
+            }
+            .top-con .row {
+                width: 60%;
+                float: left;
+                margin-bottom: 0;
+                padding-top: 0;
+            }
+            .contact1 {
+                padding-left: 15px !important;
+                padding: 0;
+            }
+            .contact1 p {
+                padding-right: 30px;
+                margin-bottom: 0;
+                /* padding-left: 30px; */
+                flex-wrap: wrap;
+                flex-direction: row;
+                display: flex;
+            }
+            .contact1 p span a {
+                font-size: 16px;
+                color: white;
+                text-decoration: none;
+            }
+            .contact2 {
+                display: none;
+            }
+            .hidden-row {
+                width: 39% !important;
+                justify-content: end;
+                float: right;
+                padding-top: 10px !important;
+                padding-bottom: 0;
+                margin: 0;
+                padding-left: 17px;
+                display: flex;
+            }
+            .hidden-row p {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+            .hidden-row p span i {
+                color: white;
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            .fa-facebook-f {
+                padding: 4px 7px;
+                background-color: #4267B2;
+            }
+            .fa-whatsapp {
+                padding: 4px;
+                background-color: #25D366;
+            }
+            .fa-twitter {
+                padding: 4px;
+                background-color: #1DA1F2;
+            }
+            .fa-instagram {
+                padding: 4px;
+                background-color: #c861a8;
+            }
+            .fa-linkedin {
+                background-color: #0e76a8;
+                font-size: 20px;
+                padding: 4px;
+            }
+            /* navbar------------- */
+            .navbar {
+                margin-top: 65px;
+            }
+            /* sliders---------------- */
+            .carousel {
+                margin-top: 118px;
+            }
+            /*---------------icons below slider---------- */
+            .below-slider-icons {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .below-slider-icons .container {
+                padding: 0;
+            }
+            .below-slider-icons .container .row .col {
+                padding: 0;
+            }
+            .below-slider-icons .container .row .col i {
+                font-size: 50px;
+                margin-bottom: 15px;
+            }
+            .below-slider-icons .container .row .col h4 {
+                font-size: 20px;
+            }
+            /*------------- about us section--------------------- */
+            .about-contf {
+                padding: 30px 0 10px 0;
+            }
+            .about-c {
+                padding: 0;
+            }
+            .about-c h4 {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            .about-c h2 {
+                margin-bottom: 10px;
+                font-size: 23px;
+            }
+            /* .about-c .lagre-screen {} */
+            .small-screen {
+                display: none;
+            }
+            .lagre-screen img {
+                /* padding-top: 50px; */
+                width: 40%;
+                margin-bottom: 74px;
+            }
+            .lagre-screen {
+                font-size: 17px !important;
+                text-align: justify;
+            }
+            /* -----------what we do------------------ */
+            .what-we-do {
+                padding-top: 20px;
+                padding-bottom: 16px;
+            }
+            .what-we-do .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .what-we-do .container h4 {
+                font-size: 28px;
+                font-weight: 600;
+            }
+            .what-we {
+                padding: 0;
+            }
+            .what-we1 {
+                margin-bottom: 0 !important;
+            }
+            .what-we .col {
+                margin-left: 4px !important;
+                margin-right: 4px !important;
+                width: 30%;
+            }
+            .what-we .col img {
+                width: 50%;
+                height: 45% !important;
+            }
+            .what-we .col h2 {
+                font-size: 15px !important;
+            }
+            .what-we .col p {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+                font-size: 14px !important;
+                /* margin-bottom: 28px !important; */
+            }
+            /* -------------------gallery------------------ */
+            .gallery {
+                padding: 20px 5px !important;
+            }
+            .gallery h2 {
+                margin-bottom: 20px;
+                text-align: center;
+                font-size: 25px;
+                font-weight: 600;
+            }
+            #myBtnContainer {
+                padding-left: 35px;
+                display: flex;
+                flex-direction: row;
+            }
+            #myBtnContainer .btn {
+                padding-right: 20px;
+            }
+            .Portfolio-Gallery {
+                margin-left: 5px;
+            }
+            .Portfolio-Gallery .column .content img {
+                width: 90%;
+            }
+            .Portfolio-Gallery .column .content h4 {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .Portfolio-Gallery .column .content p {
+                font-size: 15px;
+            }
+            .foot {
+                padding-top: 10px;
+            }
+            .fabout h6 {
+                font-size: 18px;
+            }
+            .fabout .row .col {
+                text-align: center;
+                padding: 0;
+                width: 100%;
+            }
+        }
+        /*x-x--x--x- end of 1025px — 1200px: Desktops, large screens.-x-x-x--x--x-x-x--x--x-x */
+        /*x-x-x-x-x-x- 1201px and more — Extra large screens, TV.-x-x-x--x--x-x */
+        
+        @media(min-width:1201px) {
+            .top-con {
+                padding-right: 0;
+                padding-bottom: 25px;
+                padding-top: 0 !important;
+            }
+            .top-con .row {
+                width: 60%;
+                float: left;
+                margin-bottom: 0;
+                padding-top: 0;
+            }
+            .contact1 {
+                padding-left: 15px !important;
+                padding: 0;
+            }
+            .contact1 p {
+                padding-right: 30px;
+                margin-bottom: 0;
+                /* padding-left: 30px; */
+                flex-wrap: wrap;
+                flex-direction: row;
+                display: flex;
+            }
+            .contact1 p span a {
+                font-size: 16px;
+                color: white;
+                text-decoration: none;
+            }
+            .contact2 {
+                display: none;
+            }
+            .hidden-row {
+                width: 39% !important;
+                justify-content: end;
+                float: right;
+                padding-top: 10px !important;
+                padding-bottom: 0;
+                margin: 0;
+                padding-left: 17px;
+                display: flex;
+            }
+            .hidden-row p {
+                padding-bottom: 0;
+                margin-bottom: 0;
+            }
+            .hidden-row p span i {
+                color: white;
+                margin-right: 10px;
+                font-size: 20px;
+            }
+            .fa-facebook-f {
+                padding: 4px 7px;
+                background-color: #4267B2;
+            }
+            .fa-whatsapp {
+                padding: 4px;
+                background-color: #25D366;
+            }
+            .fa-twitter {
+                padding: 4px;
+                background-color: #1DA1F2;
+            }
+            .fa-instagram {
+                padding: 4px;
+                background-color: #c861a8;
+            }
+            .fa-linkedin {
+                background-color: #0e76a8;
+                font-size: 20px;
+                padding: 4px;
+            }
+            /* navbar------------- */
+            .navbar {
+                margin-top: 65px;
+            }
+            /* sliders---------------- */
+            .carousel {
+                margin-top: 118px;
+            }
+            /*---------------icons below slider---------- */
+            .below-slider-icons {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .below-slider-icons .container {
+                padding: 0;
+            }
+            .below-slider-icons .container .row .col {
+                padding: 0;
+            }
+            .below-slider-icons .container .row .col i {
+                font-size: 50px;
+                margin-bottom: 15px;
+            }
+            .below-slider-icons .container .row .col h4 {
+                font-size: 20px;
+            }
+            /*------------- about us section--------------------- */
+            .about-contf {
+                padding: 30px 0 10px 0;
+            }
+            .about-c {
+                padding: 0;
+            }
+            .about-c h4 {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            .about-c h2 {
+                margin-bottom: 10px;
+                font-size: 23px;
+            }
+            /* .about-c .lagre-screen {} */
+            .small-screen {
+                display: none;
+            }
+            .lagre-screen img {
+                /* padding-top: 50px; */
+                width: 40%;
+                margin-bottom: 74px;
+            }
+            .lagre-screen {
+                font-size: 17px !important;
+                text-align: justify;
+            }
+            /* -----------what we do------------------ */
+            .what-we-do {
+                padding-top: 20px;
+                padding-bottom: 16px;
+            }
+            .what-we-do .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .what-we-do .container h4 {
+                font-size: 28px;
+                font-weight: 600;
+            }
+            .what-we {
+                padding: 0;
+            }
+            .what-we1 {
+                margin-bottom: 0 !important;
+            }
+            .what-we .col {
+                margin-left: 4px !important;
+                margin-right: 4px !important;
+                width: 30%;
+            }
+            .what-we .col img {
+                width: 50%;
+                height: 45% !important;
+            }
+            .what-we .col h2 {
+                font-size: 15px !important;
+            }
+            .what-we .col p {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+                font-size: 14px !important;
+                /* margin-bottom: 28px !important; */
+            }
+            /* -------------------gallery------------------ */
+            .gallery {
+                padding: 20px 5px !important;
+            }
+            .gallery h2 {
+                margin-bottom: 20px;
+                text-align: center;
+                font-size: 25px;
+                font-weight: 600;
+            }
+            #myBtnContainer {
+                padding-left: 35px;
+                display: flex;
+                flex-direction: row;
+            }
+            #myBtnContainer .btn {
+                padding-right: 20px;
+            }
+            .Portfolio-Gallery {
+                margin-left: 5px;
+            }
+            .Portfolio-Gallery .column .content img {
+                width: 90%;
+            }
+            .Portfolio-Gallery .column .content h4 {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .Portfolio-Gallery .column .content p {
+                font-size: 15px;
             }
             .foot {
                 padding-top: 10px;

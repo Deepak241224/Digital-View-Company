@@ -8,7 +8,7 @@ body {
 /* -----------top contact----------------- */
 
 .top-con {
-    background-color: #0389ff;
+    background-color: black;
 }
 
 .contact1 p span a,
@@ -90,6 +90,7 @@ nav ul {
 }
 
 .about-c h4 {
+    text-shadow: -1px 1px 0px red;
     margin-bottom: 90px;
     text-align: center;
     font-size: 24px;
@@ -164,6 +165,10 @@ nav ul {
 
 * {
     box-sizing: border-box;
+}
+
+.Portfolio-Gallery {
+    width: 100%;
 }
 
 
@@ -272,13 +277,11 @@ h1 {
     text-decoration: none;
 }
 
-.fa-linkedin {
-    background-color: #0e76a8;
-    font-size: 20px;
-    padding: 4px;
-}
-
 .fabout .row a {
     color: white;
     text-decoration: none;
+}
+
+.fabout img {
+    width: 100%;
 }
