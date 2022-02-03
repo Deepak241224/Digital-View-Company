@@ -1,10 +1,11 @@
         @media (min-width:320px) and (max-width:480px) {
             /* top contact info--------- */
             .top-con {
-                padding-bottom: 25px;
+                padding-bottom: 0;
                 padding-top: 0 !important;
             }
             .top-con .row {
+                margin-bottom: 0;
                 padding-top: 0;
             }
             .contact1 {
@@ -26,18 +27,18 @@
                 display: none;
             }
             .hidden-row {
-                margin: 0;
-                padding-left: 38px;
-                display: flex;
+                /* margin: 0;
+                padding-left: 38px; */
+                display: none;
             }
-            .hidden-row p {
+            /* .hidden-row p {
                 margin-bottom: 0;
             }
             .hidden-row p span i {
                 color: white;
                 margin-right: 10px;
                 font-size: 20px;
-            }
+            } */
             .fa-facebook-f {
                 padding: 4px 7px;
                 background-color: #4267B2;
@@ -51,8 +52,9 @@
                 background-color: #1DA1F2;
             }
             .fa-instagram {
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                 padding: 4px;
-                background-color: #c861a8;
+                /* background-color: #c861a8; */
             }
             .fa-linkedin {
                 background-color: #0e76a8;
@@ -61,11 +63,11 @@
             }
             /* navbar------------- */
             .navbar {
-                margin-top: 132px;
+                margin-top: 88px;
             }
             /* sliders---------------- */
             .carousel {
-                margin-top: 172px;
+                margin-top: 128px;
             }
             /* below slider---------- */
             .below-slider-icons {
@@ -99,9 +101,10 @@
                 display: flex;
             }
             .small-screen .col-md-6 img {
-                float: left;
+                display: none;
+                /* float: left;
                 width: 60%;
-                margin-bottom: 15px;
+                margin-bottom: 15px; */
             }
             .small-screen .col-md-6 p {
                 font-size: 13px;
@@ -180,14 +183,35 @@
                 padding: 0;
                 width: 100%;
             }
+            .fabout img {
+                margin-bottom: 15px;
+                width: 90%;
+            }
         }
         /*xxxxxxxxx---------------- end of mobile media ------------xxxxxxxxxxxxxxxx*/
+        
+        @media (min-width:481px) and (max-width:669px) {
+            /* navbar------------- */
+            .navbar {
+                margin-top: 77px;
+            }
+        }
+        
+        @media (min-width:670px) and (max-width:768px) {
+            /* navbar------------- */
+            .navbar {
+                margin-top: 65px;
+            }
+        }
         /* 481------768(ipads and tabs) -------------------*/
         
         @media (min-width:481px) and (max-width:768px) {
             .top-con {
                 padding-bottom: 25px;
                 padding-top: 0 !important;
+            }
+            .top-con:first-child {
+                width: 100%;
             }
             .top-con .row {
                 margin-bottom: 0;
@@ -212,18 +236,16 @@
                 display: none;
             }
             .hidden-row {
-                margin: 0;
-                padding-left: 38px;
-                display: flex;
+                display: none;
             }
-            .hidden-row p {
+            /* .hidden-row p {
                 margin-bottom: 0;
             }
             .hidden-row p span i {
                 color: white;
                 margin-right: 10px;
                 font-size: 20px;
-            }
+            } */
             .fa-facebook-f {
                 padding: 4px 7px;
                 background-color: #4267B2;
@@ -237,21 +259,18 @@
                 background-color: #1DA1F2;
             }
             .fa-instagram {
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                 padding: 4px;
-                background-color: #c861a8;
+                /* background-color: #c861a8; */
             }
             .fa-linkedin {
                 background-color: #0e76a8;
                 font-size: 20px;
                 padding: 4px;
             }
-            /* navbar------------- */
-            .navbar {
-                margin-top: 101px;
-            }
             /* sliders---------------- */
             .carousel {
-                margin-top: 141px;
+                margin-top: 106px;
             }
             /*---------------icons below slider---------- */
             .below-slider-icons {
@@ -282,14 +301,15 @@
                 display: none;
             }
             .small-screen {
+                flex-wrap: wrap;
+                flex-direction: row-reverse;
                 display: flex;
             }
-            .small-screen .col-md-6 img {
-                float: left;
+            /* .small-screen .col-md-6 img {
                 width: 60%;
                 margin-bottom: 15px;
-            }
-            .small-screen .col-md-6 p {
+            } */
+            .small-screen .col-md-12 p {
                 font-size: 14px;
                 text-align: justify;
             }
@@ -375,6 +395,9 @@
                 padding-bottom: 25px;
                 padding-top: 0 !important;
             }
+            .top-con .row:first-child {
+                width: 70%;
+            }
             .top-con .row {
                 margin-bottom: 0;
                 padding-top: 0;
@@ -399,6 +422,8 @@
                 display: none;
             }
             .hidden-row {
+                justify-content: end;
+                width: 30%;
                 padding-top: 10px !important;
                 padding-bottom: 0;
                 margin: 0;
@@ -427,8 +452,9 @@
                 background-color: #1DA1F2;
             }
             .fa-instagram {
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                 padding: 4px;
-                background-color: #c861a8;
+                /* background-color: #c861a8; */
             }
             .fa-linkedin {
                 background-color: #0e76a8;
@@ -483,7 +509,7 @@
             .lagre-screen img {
                 padding-top: 50px;
                 width: 40%;
-                margin-bottom: 84px;
+                margin-bottom: 125px;
             }
             .lagre-screen p {
                 font-size: 14px;
@@ -574,12 +600,14 @@
         
         @media (min-width:1025px) and (max-width:1200px) {
             .top-con {
+                display: flex;
+                flex-direction: row;
                 padding-right: 0;
                 padding-bottom: 25px;
                 padding-top: 0 !important;
             }
-            .top-con .row {
-                width: 60%;
+            .top-con .row:first-child {
+                width: 70%;
                 float: left;
                 margin-bottom: 0;
                 padding-top: 0;
@@ -605,7 +633,7 @@
                 display: none;
             }
             .hidden-row {
-                width: 39% !important;
+                width: 30% !important;
                 justify-content: end;
                 float: right;
                 padding-top: 10px !important;
@@ -636,8 +664,9 @@
                 background-color: #1DA1F2;
             }
             .fa-instagram {
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                 padding: 4px;
-                background-color: #c861a8;
+                /* background-color: #c861a8; */
             }
             .fa-linkedin {
                 background-color: #0e76a8;
@@ -690,9 +719,9 @@
                 display: none;
             }
             .lagre-screen img {
-                /* padding-top: 50px; */
+                padding-top: 50px;
                 width: 40%;
-                margin-bottom: 74px;
+                margin-bottom: 125px;
             }
             .lagre-screen {
                 font-size: 17px !important;
@@ -845,8 +874,9 @@
                 background-color: #1DA1F2;
             }
             .fa-instagram {
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
                 padding: 4px;
-                background-color: #c861a8;
+                /* background-color: #c861a8; */
             }
             .fa-linkedin {
                 background-color: #0e76a8;
